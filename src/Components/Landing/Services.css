@@ -1,0 +1,46 @@
+.services{
+    /* max-width: 1200px;
+    min-width: 1200px; */
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    height: 450px;
+    background-color: #2b1e16;
+    padding: 0 40px;
+    /* justify-content: space-between; */
+}
+
+
+.image1{
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf');
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content{
+    width: 250px;
+    height: 250px;
+    font-family: 15px;
+    color: white;
+}
+
+.image2{
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy');
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image3{
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn');
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
