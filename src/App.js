@@ -1,16 +1,34 @@
-//import logo from './logo.svg';
-import './App.css';
-import LandingMain from './Components/Landing/landingMain';
-import Services from './Components/Landing/Services';
-import AppLink from './Components/Landing/AppLink';
-import Footer from './Components/Landing/Footer';
+import "./App.css";
+// import MiniCart from "./Components/MenuPage/MiniCart";
+import { Routes1 } from "./Routes/Routes";
+// import { useSelector } from "react-redux";
+
 function App() {
+  // const state = useSelector((state) => state);
   return (
     <div className="App">
-        <LandingMain />
-        <Services />
-        <AppLink />
-        <Footer />     
+      <Routes1 />
+      <div>
+        <div
+          class="modal fade"
+          id="CartModal"
+          tabindex="-1"
+          role="dialog"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog"
+            style={{ margin: "5% 3% 0% 70%" }}
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-body">
+                {/* <MiniCart /> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

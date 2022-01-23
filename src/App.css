@@ -1,5 +1,4 @@
 .App {
-  box-sizing: border-box;
   text-align: center;
 }
 
@@ -36,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollspy-example::-webkit-scrollbar {
+  width: 0px;
 }
